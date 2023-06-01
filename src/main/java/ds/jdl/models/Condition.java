@@ -11,7 +11,4 @@ public class Condition extends FilterBase {
     private String fieldName;
     private String value;
     private Operation operation;
-
-    private List<Condition> and;
-    private List<Condition> or;
 }
